@@ -25,6 +25,7 @@ Router(config-telephony)# max-dn 5
 Router(config-telephony)# max-ephones 5
 Router(config-telephony)# ip source-address 192.168.0.1 port 2000
 Router(config-telephony)# auto assign 4 to 6
+Router(config-telephony)# auto assign 1 to 5
 Router(config-telephony)# exit
 ```
 
