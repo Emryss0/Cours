@@ -15,7 +15,7 @@
    ```
 4. Définissez un mot de passe pour les sessions Telnet :
    ```bash
-   password cisco
+   password ipssi
    ```
 5. Activez l'authentification par mot de passe :
    ```bash
@@ -25,6 +25,11 @@
    ```bash
    exit
    ```
+7. 
+ ```bash
+   enable password cisco
+   ```
+
 
 ## Sur le PC
 1. Ouvrez une session Telnet avec l'adresse IP du routeur :
