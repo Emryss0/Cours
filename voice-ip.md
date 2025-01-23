@@ -1,6 +1,4 @@
-Voici la documentation avec un peu de couleur, utilisant la syntaxe Markdown avec des blocs de code colorés pour faciliter la lecture :
-
-```markdown
+![Schéma des VLANs](images/voice-ip.png)
 # Documentation de configuration VoIP
 
 ## Configuration du routeur
@@ -80,8 +78,8 @@ Building configuration...
 
 ## Résolution des problèmes
 
-- Si tu rencontres des conflits d'adresses IP sur le serveur DHCP, comme indiqué par **`%DHCPD-4-PING_CONFLICT`**, vérifie que les adresses IP assignées ne se chevauchent pas.
-- Assure-toi que les téléphones sont correctement enregistrés et connectés, en vérifiant les messages comme **`%IPPHONE-6-REGISTER`**.
+- Si tu rencontres des conflits d'adresses IP sur le serveur DHCP, comme indiqué par `%DHCPD-4-PING_CONFLICT`, vérifie que les adresses IP assignées ne se chevauchent pas.
+- Assure-toi que les téléphones sont correctement enregistrés et connectés, en vérifiant les messages comme `%IPPHONE-6-REGISTER`.
 ```
 
-Cette version utilise des blocs de code pour séparer les étapes et les rendre plus lisibles, et le texte important (comme les messages d'erreur) est mis en évidence pour attirer l'attention. Les couleurs dépendent de l'éditeur que tu utilises pour visualiser le Markdown, mais elles amélioreront la lisibilité et l'organisation de la documentation.
+Cette documentation décrit les étapes de base pour configurer un réseau VoIP sur un routeur et un switch Cisco, y compris la création du pool DHCP, la configuration du service téléphonique, l'assignation des numéros d'extension, et la configuration des interfaces du switch pour la voix.
